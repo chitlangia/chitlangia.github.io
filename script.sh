@@ -1,8 +1,9 @@
 #!/bin/bash
-#cmatrix -sBC blue &
+cmatrix -sBC blue &
 
 git add --all
 git commit -m "initial commit"
 git push -u origin master
+pkill cmatrix
 
 
